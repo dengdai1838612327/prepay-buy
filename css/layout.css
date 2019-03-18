@@ -1,0 +1,1495 @@
+@charset 'utf-8';
+/*注册登录*/
+.input-box {
+	margin: 15px 0;
+}
+.input-box ul {
+	background-color: #fff;
+	padding-left: 15px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.input-box ul li {
+	border-bottom: 1px solid #ddd;
+	height: 45px;
+	font-size: 15px;
+	overflow: hidden;
+}
+.input-box ul li:last-child {
+	border-bottom: none;
+}
+.input-box ul li label {
+	float: left;
+	width: 80px;
+	line-height: 45px;
+}
+.input-box ul li input {
+	float: left;
+	width: 150px;
+	height: 45px;
+}
+.input-box .yzm-btn {
+	float: right;
+	width: 90px;
+	height: 25px;
+	margin: 10px;
+	background-color: #3385ff;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.link-btm {
+	display: block;
+	color: #3385ff;
+	text-align: center;
+	font-size: 15px;
+}
+.link-group {
+	overflow: hidden;
+	padding: 10px 15px;
+}
+.link-group a {
+	color: #3385ff;
+	font-size: 15px;
+}
+.link-group a.fl {
+	float: left;
+}
+.link-group a.fr {
+	float: right;
+}
+/*消费者*/
+/*首页*/
+.search-box {
+	background-color: #3385ff;
+	overflow: hidden;
+}
+.search-box .position {
+	overflow: hidden;
+	height: 30px;
+	margin: 0 20px;
+}
+.position i {
+	float: left;
+	background-position: 0 0;
+	width: 12px;
+	height: 15px;
+	margin: 7px 10px 7px 0;
+}
+.position .drop-down {
+	float: left;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	padding-right: 20px;
+}
+.drop-down:before {
+	border: #fff solid 1px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -6px;
+	display: block;
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+.search-box .search {
+	margin: 10px 20px;
+	background-color: #fff;
+	border-radius: 100px;
+	height: 35px;
+	padding: 0 15px;
+	overflow: hidden;
+}
+.search i {
+	float: left;
+	width: 14px;
+	height: 14px;
+	background-position: -39px 0;
+	margin: 10px 10px 10px 0;
+}
+.search input {
+	float: left;
+	width: 260px;
+	height: 35px;
+	font-size: 14px;
+}
+.index-head img {
+	display: block;
+	width: 100%;
+}
+.index-icon ul {
+	overflow: hidden;
+	padding: 15px 0;
+}
+.index-icon ul li {
+	float: left;
+	width: 25%;
+}
+.index-icon ul li img {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+.index-icon ul li span {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 0;
+}
+.box-tit {
+	margin-left: 20px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.store-list ul li {
+	background-color: #fff;
+	padding: 10px 0 10px 20px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.store-list ul li .store-img {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #e1e1e1;
+}
+.store-list .store-img img {
+	display: block;
+	width: 90px;
+	height: 90px;
+}
+.store-list ul li .store-info {
+	float: left;
+	width: 65%;
+	height: 92px;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.store-list .store-info .store-name {
+	display: block;
+	margin-bottom: 10px;
+}
+.store-list .store-info .store-posi {
+	color: #666;
+	overflow: hidden;
+}
+.store-posi i {
+	float: left;
+	width: 12px;
+	height: 15px;
+	background-position: -12px 0;
+	margin: 3px 5px 0 0;
+}
+.store-posi span {
+	float: left;
+	width: 90%;
+	height: 40px;
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/*商户详情*/
+.store-head img {
+	display: block;
+	width: 100%;
+}
+.head-info {
+	margin: 0 20px 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.head-info .name {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.head-info .over-h {
+	overflow: hidden;
+}
+.head-info .over-h i {
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin: 7px 10px 0 0;
+}
+.head-info i.loca {
+	background-position: -12px 0;
+}
+.head-info i.phone {
+	background-position: 0 -42px;
+}
+.head-info .over-h span {
+	float: left;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+	width: 90%;
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.store-card {
+	margin-bottom: 20px;
+	position: relative;
+}
+.store-card img {
+	display: block;
+	margin: 15px auto;
+	width: 290px;
+	height: 165px;
+	border-radius: 8px;
+}
+.store-card button {
+	display: block;
+	width: 200px;
+	height: 35px;
+	margin: 0 auto 15px;
+	font-size: 15px;
+	background-color: #fff;
+	color: #3385ff;
+	border: 1px solid #3385ff;
+	border-radius: 5px;
+}
+.store-card .card-info {
+	margin: 0 20px;
+}
+.card-info .info-list {
+	overflow: hidden;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.info-list label {
+	float: left;
+	color: #666;
+	width: 90px;
+}
+.info-list span {
+	float: left;
+	width: 70%;
+}
+/*成功失败页面*/
+.res-box {
+	margin: 50px 0 20px;
+}
+.res-box img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 50px;
+	height: 50px;
+}
+.res-box span {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.res-box .fail-text {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	width: 240px;
+	margin: 0 auto;
+}
+.res-box .fail-text em {
+	color: #f00;
+}
+/*我的卡包*/
+.my-card {
+	margin: 20px;
+}
+.my-card ul li {
+	height: 85px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+.my-card ul li.red {
+	background-color: #af2a28;
+}
+.my-card ul li.blue {
+	background-color: #193e7b;
+}
+.my-card ul li.yellow {
+	background-color: #e18a32;
+}
+.my-card ul li.orange {
+	background-color: #e16832;
+}
+.my-card .card-img {
+	float: left;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.my-card .card-img img {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin: 7px auto;
+}
+.my-card .card-name {
+	float: left;
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+}
+.my-card .card-name .type {
+	font-size: 16px;
+}
+/*查看会员卡*/
+.store-card .card-num {
+	position: absolute;
+	width: 290px;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -130px;
+	color: #fff;
+	font-size: 16px;
+}
+.card-option {
+	margin-bottom: 20px;
+}
+.card-option .option-info {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.option-info .option {
+	float: left;
+	width: 50%;
+	border-right: 1px solid #ddd;
+	line-height: 35px;
+}
+.option:last-child {
+	border-right: none;
+}
+.option span {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+}
+.option p {
+	text-align: center;
+	color: #e16832;
+	font-size: 22px;
+}
+.option p em {
+	color: #666;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.option a {
+	display: block;
+	text-align: center;
+	color: #3385ff;
+	font-size: 16px;
+}
+.card-option button {
+	display: block;
+	margin: 0 auto;
+	width: 260px;
+	height: 35px;
+	border: 1px solid #f9bb71;
+	color: #666;
+	background-color: #fff;
+	font-size: 15px;
+}
+.drop-list {
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	padding-left: 15px;
+}
+.drop-list ul li {
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 45px;
+	font-size: 15px;
+	position: relative;
+}
+.drop-list ul li:last-child {
+	border-bottom: none;
+}
+.drop-list ul li:after {
+	content: '';
+	border: 2px solid #8c8c8c;
+	border-top: none;
+	border-right: none;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	margin-top: -7px;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+.tips-top {
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	padding-left: 20px;
+	background-color: #fefadd;
+	color: #ec652b;
+	font-size: 14px;
+	z-index: 1;
+}
+.tips-top i {
+	float: left;
+	background-position: -80px 0;
+	width: 15px;
+	height: 13px;
+	margin: 8px 8px 0 0;
+}
+.tips-top span {
+	float: left;
+	width: 90%;
+	overflow: hidden;
+	overflow-wrap: normal;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/*退卡*/
+.cancle-tips {
+	margin: 0 20px 20px;
+}
+.cancle-tips .tips-tit {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.cancle-tips .tips-con {
+	font-size: 14px;
+	color: #666;
+}
+/*交易明细*/
+.order-list {
+	margin-top: 15px;
+	padding-left: 15px;
+	background-color: #fff;
+}
+.order-list ul li {
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px 10px 0;
+}
+.order-list ul li:last-child {
+	border-bottom: none;
+}
+.order-list ul li img {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 15px 15px 15px 0;
+}
+.order-list .order-l {
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+}
+.order-list .gray {
+	color: #666;
+}
+.order-list .order-r {
+	float: right;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: right;
+}
+.order-list .order-r .num {
+	font-size: 16px;
+}
+/*出示二维码*/
+.code-box {
+	background-color: #fff;
+	margin: 15px 20px;
+	padding: 50px 0;
+	border-radius: 8px;
+}
+.code-box .code-tit {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.code-one {
+	margin-bottom: 30px;
+}
+.code-one img {
+	display: block;
+	margin: 0 auto 10px;
+	width: 215px;
+	height: 82px;
+}
+.code-one span {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+.code-two img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 162px;
+	height: 162px;
+}
+.code-two .refresh-text {
+	font-size: 0;
+	text-align: center;
+}
+.code-two .refresh-text i {
+	width: 20px;
+	height: 20px;
+	background-position: -55px 0;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.code-two .refresh-text span {
+	display: inline-block;
+	font-size: 14px;
+}
+/*个人中心*/
+.center-head {
+	margin-top: 15px;
+	padding: 25px 0;
+	background-color: #fff;
+}
+.center-head img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto 20px;
+}
+.center-info p {
+	margin-bottom: 5px;
+	line-height: 25px;
+	text-align: center;
+}
+.center-info p label {
+	display: inline-block;
+	text-align: left;
+	width: 60px;
+	font-size: 15px;
+	color: #666;
+}
+.center-info p span {
+	display: inline-block;
+	text-align: left;
+	font-size: 16px;
+}
+.center-list {
+	margin-top: 15px;
+	padding-left: 15px;
+	background-color: #fff;
+}
+.center-list ul li {
+	border-bottom: 1px solid #ddd;
+	line-height: 45px;
+	position: relative;
+	font-size: 15px;
+	overflow: hidden;
+}
+.center-list ul li:last-child {
+	border-bottom: none;
+}
+.center-list ul li:after {
+	content: '';
+	border: 2px solid #e0e0e0;
+	border-top: none;
+	border-right: none;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -7px;
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+.center-list label {
+	float: left;
+	overflow: hidden;
+}
+.center-list label i {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 12px 10px 12px 0;
+}
+.center-list label i.center-1 {
+	background-position: right 0;
+}
+.center-list label i.center-2 {
+	background-position: right -20px;
+}
+.center-list label i.center-3 {
+	background-position: right -40px;
+}
+.center-list label i.center-4 {
+	background-position: right -60px;
+}
+.center-list label em {
+	float: left;
+}
+.center-list span {
+	float: right;
+	margin-right: 35px;
+	color: #666;
+}
+/*个人信息、修改昵称*/
+.center-input {
+	margin: 15px 0;
+	padding-left: 20px;
+	background-color: #fff;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+.center-input p {
+	overflow: hidden;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 45px;
+	height: 45px;
+	font-size: 15px;
+}
+.center-input p:last-child {
+	border-bottom: none;
+}
+.center-input p label {
+	float: left;
+	width: 80px;
+}
+.center-input p input {
+	float: left;
+	width: 200px;
+	height: 45px;
+}
+/*我的账单*/
+.time-box {
+	float: left;
+	font-size: 14px;
+	overflow: hidden;
+	width:65%;
+}
+.time-box em {
+	position: relative;
+	display: inline-block;
+	width: 42%;
+}
+.time-box em:after {
+	content: '';
+	border: 1px solid #999;
+	border-top: none;
+	border-right: none;
+	position: absolute;
+	top: 50%;
+	right: 1px;
+	margin-top: -6px;
+	width: 6px;
+	height: 6px;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+.time-box i {
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+}
+.filter-btn {
+	height: 25px;
+	padding: 0 10px;
+	background-color: #fff;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #ababab;
+	border-radius: 100px;
+}
+.filter-btn.cur {
+	color: #3385ff;
+	border-color: #3385ff;
+}
+.center-input .filter-btn {
+	float: right;
+	margin: 10px 20px;
+}
+.filter-box {
+	padding: 0 20px;
+	margin-bottom: 15px;
+}
+.bill-list {
+	background-color: #fff;
+	padding-left: 20px;
+}
+.bill-list ul li {
+	padding-top: 10px;
+}
+.bill-list ul li p {
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 25px;
+}
+.bill-list ul li p i {
+	float: left;
+	width: 18px;
+	height: 16px;
+	margin: 3px 17px 0 0;
+	background-position: -100px 0;
+}
+.bill-list .name {
+	float: left;
+}
+.bill-list .num {
+	float: right;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.bill-list .line-2 {
+	margin-left: 35px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.bill-list ul li:last-child .line-2 {
+	border-bottom: none;
+}
+.bill-list .time {
+	float: left;
+	color: #666;
+}
+.bill-list .type {
+	float: right;
+	color: #ff9c00;
+	margin-right: 20px;
+	font-size: 14px;
+}
+/*商户*/
+/*首页*/
+.sh-index-icon ul {
+	overflow: hidden;
+}
+.sh-index-icon ul li {
+	width: 33.33%;
+	float: left;
+}
+.sh-index-icon ul li img {
+	display: block;
+	width: 45px;
+	height: 45px;
+	margin: 30px auto 5px;
+}
+.sh-index-icon ul li span {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+}
+/*消费*/
+.num-box {
+	margin: 15px 0 50px;
+	padding-left: 20px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.num-box label {
+	display: block;
+	color: #666;
+	font-size: 15px;
+	margin-top: 25px;
+}
+.num-box .input-box {
+	border-bottom: 1px solid #e0e0e0;
+	margin: 15px 0 0 0;
+	overflow: hidden;
+}
+.num-box .input-box em {
+	float: left;
+	font-size: 30px;
+	line-height: 55px;
+	margin-right: 10px;
+}
+.num-box .input-box input {
+	float: left;
+	height: 55px;
+	font-size: 20px;
+}
+.num-box .input-box i {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background-position: -50px -20px;
+	margin: 20px 20px 0 0;
+}
+.num-box .placeholder {
+	line-height: 45px;
+	font-size: 15px;
+}
+.sh-res-box {
+	margin: 15px 20px 0;
+	padding: 25px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.sh-res-box img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 50px;
+	height: 50px;
+}
+.sh-res-box span {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.sh-res-box em.num {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.sh-res-box .res-text {
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+}
+.sh-res-box .res-text em {
+	color: #f00;
+}
+.payer-box {
+	margin: 15px 20px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+.payer-box .center-tit {
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.payer-box img {
+	display: block;
+	margin: 20px auto 0;
+	width: 75px;
+	height: 75px;
+	border-radius: 8px;
+}
+.payer-box .payer-name {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+/*充值*/
+.sweep {
+	margin: 30px 20px;
+	overflow: hidden;
+}
+.sweep input {
+	float: left;
+	border-radius: 5px;
+	padding-left: 10px;
+	width: 85%;
+	height: 50px;
+	font-size: 15px;
+}
+.sweep i {
+	float: right;
+	width: 27px;
+	height: 27px;
+	margin-top: 12px;
+	background-position: 0 -60px;
+}
+.num-box.re-num-box {
+	margin: 0;
+}
+.recharge-card {
+	margin: 10px 20px 10px 0;
+	padding: 35px 10px 15px;
+	position: relative;
+}
+.recharge-card.border {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+}
+.recharge-card.border.cur {
+	border-color: #dd4f41;
+}
+.recharge-card.cur i {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 15px;
+	right: 15px;
+	background-position: right bottom;
+}
+.re-card-main {
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.re-card-main img {
+	float: left;
+	width: 75px;
+	height: 75px;
+	margin-right: 5px;
+}
+.re-card-main .main-r {
+	float: left;
+	line-height: 25px;
+	font-size: 15px;
+}
+.re-card-main .main-r p {
+	overflow: hidden;
+}
+.num-box .re-card-main label {
+	float: left;
+	width: 75px;
+	margin: 0;
+}
+.re-card-bottom {
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 25px;
+}
+.re-card-bottom .card-name {
+	float: left;
+}
+.re-card-bottom .card-num {
+	float: right;
+}
+.re-card-bottom label {
+	margin: 0;
+	display: inline;
+}
+.re-card-bottom .card-num span {
+	font-size: 18px;
+}
+.re-card-filter ul {
+	overflow: hidden;
+	margin-right: 20px;
+}
+.re-card-filter ul li {
+	float: left;
+	width: 29.33%;
+	height: 35px;
+	line-height: 35px;
+	margin: 8px 2%;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #e0e0e0;
+	border-radius: 100px;
+	color: #999;
+}
+.re-card-filter ul li.cur {
+	border-color: #dd4f41;
+	color: #fff;
+	background-color: #dd4f41;
+}
+.re-card-succ {
+	background-color: #fff;
+	margin: 15px 20px;
+	padding-top: 15px;
+}
+.re-card-succ .center-tit {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 35px;
+}
+/*会员*/
+.search-box.gray {
+	background: transparent;
+	position: relative;
+}
+.search-box .search-r {
+	position: absolute;
+	right: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+.sh-filter .filter-btn.cur {
+	color: #dd4f41;
+	border-color: #dd4f41;
+}
+.sh-filter .member-num {
+	float: right;
+	line-height: 25px;
+}
+.sh-filter .member-num em {
+	color: #f00;
+	font-size: 16px;
+}
+/*查询*/
+.query-box {
+	background-color: #dd4f41;
+	height: 130px;
+	margin-bottom: 100px;
+	position: relative;
+}
+.query-card {
+	position: absolute;
+	width: 90%;
+	height: 185px;
+	top: 20px;
+	margin: 0 5%;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.query-card-tit {
+	background-color: #f5f5f5;
+	line-height: 35px;
+	padding-left: 15px;
+	font-size: 15px;
+	color: #999;
+}
+.query-card ul {
+	padding: 5px 15px;
+}
+.query-card ul li {
+	overflow: hidden;
+	line-height: 35px;
+	font-size: 15px;
+}
+.query-card ul li label {
+	float: left;
+}
+.query-card ul li span {
+	float: right;
+}
+.query-btn {
+	text-align: center;
+}
+.query-btn button {
+	width: 110px;
+	height: 30px;
+	margin: 0 20px;
+	font-size: 15px;
+	background-color: #fff;
+	color: #dd4f41;
+	border: 1px solid #dd4f41;
+	border-radius: 8px;
+}
+.filter-btn.filter-btn-sh.cur {
+	color: #dd4f41;
+	border-color: #dd4f41;
+}
+.bill-list.bill-list-sh .line-2 {
+	margin-left: 0;
+}
+.bill-list.bill-list-sh .num {
+	color: #666;
+	font-size: 14px;
+}
+.bill-list.bill-list-sh .time {
+	font-size: 14px;
+}
+.bill-list.bill-list-sh .type {
+	color: #f00;
+	font-size: 18px;
+}
+/*退货*/
+.return-text {
+	display: block;
+	width: 90%;
+	height: 100px;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 15px;
+}
+/*卡券中心*/
+.empty-box {
+	margin: 50px 0 20px;
+}
+.empty-box img {
+	display: block;
+	margin: 0 auto 20px;
+	width: 100px;
+	height: 90px;
+}
+.empty-box span {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+/*创建会员卡*/
+.input-box.not-null ul {
+	border: none;
+}
+.input-box.not-null ul li:last-child {
+	border-bottom: 1px solid #ddd
+}
+.input-box.not-null ul li label {
+	width: 120px;
+	padding-left: 15px;
+	position: relative;
+}
+.input-box.not-null ul li label i {
+	color: #f00;
+	font-size: 18px;
+	position: absolute;
+	left: 0;
+}
+.input-box.not-null ul li span {
+	float: left;
+	line-height: 45px;
+	color: #666;
+}
+.new-card ul {
+	overflow: hidden;
+}
+.new-card ul li {
+	float: left;
+	width: 50%;
+	height: 100px;
+	margin: 10px 0;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+}
+.new-card ul li img {
+	display: block;
+	width: 155px;
+	height: 100px;
+	margin: 0 auto;
+}
+.new-card ul li span {
+	position: absolute;
+	width: 155px;
+	text-align: center;
+	left: 50%;
+	top: 10px;
+	margin-left: -115px;
+	color: #fff;
+	font-size: 15px;
+}
+.new-card-link {
+	text-align: center;
+}
+.new-card-link a {
+	display: inline-block;
+	font-size: 16px;
+	color: #3385ff;
+	margin: 10px 10px 20px;
+}
+/*生成会员卡*/
+.create-card {
+	margin: 20px 0;
+	position: relative;
+}
+.create-card img {
+	display: block;
+	width: 280px;
+	height: 150px;
+	margin: 0 auto;
+}
+.create-card span {
+	position: absolute;
+	width: 280px;
+	text-align: center;
+	top: 10px;
+	left: 50%;
+	margin-left: -240px;
+	color: #fff;
+	font-size: 16px;
+}
+.new-card-link.red a {
+	color: #dd4f41;
+}
+.create-info {
+	margin: 0 20px;
+}
+.create-info p {
+	overflow: hidden;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+.create-info p label {
+	float: left;
+	color: #666;
+	width: 100px;
+}
+.create-info p span {
+	float: left;
+}
+/*发卡二维码*/
+.create-code {
+	margin: 15px 20px;
+	padding: 15px 0 30px;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.create-code .center-tit {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 45px;
+}
+.create-code .card-name {
+	overflow: hidden;
+	margin-bottom: 30px;
+	font-size: 0;
+	text-align: center;
+}
+.create-code .card-name img {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	margin-right: 20px;
+	vertical-align: top;
+}
+.create-code .card-name .name-r {
+	display: inline-block;
+	height: 65px;
+	padding: 8px 0;
+}
+.create-code .card-name .name-r p {
+	line-height: 25px;
+	font-size: 14px;
+	text-align: left;
+}
+.create-code .code-two {
+	display: block;
+	width: 115px;
+	height: 115px;
+	margin: 0 auto 30px;
+}
+/*个人中心*/
+.center-list label i.center-5 {
+	background-position: right -80px;
+}
+.center-list label i.center-6 {
+	background-position: right -100px;
+}
+.sh-center {
+	position: relative;
+}
+.sh-center .head-bg {
+	display: block;
+	width: 100%;
+	height: 180px;
+	margin-bottom: 100px;
+}
+.sh-center .head {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+}
+.sh-center .head img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 20px;
+}
+.sh-center .head p {
+	text-align: center;
+	line-height: 30px;
+	font-size: 0;
+}
+.sh-center .head p label {
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.sh-center .head p span {
+	display: inline-block;
+	font-size: 16px;
+}
+.center-list label .list-l {
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+}
+.sh-center .head i {
+	position: absolute;
+	width: 19px;
+	height: 17px;
+	background-position: -75px -20px;
+	right: 35px;
+	top: 90px;
+}
+.sh-center-input img {
+	display: block;
+	width: 100%;
+	height: 225px;
+	margin: 15px 0 50px;
+}
+/*报备*/
+.sign-box {
+	margin-top: 15px;
+	padding-bottom: 50px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.sign-box img {
+	display: block;
+	width: 285px;
+	height: 233px;
+	margin: 20px auto;
+}
+.check-top {
+	margin-top: 15px;
+	padding: 0 20px;
+	background-color: #fff;
+	height: 45px;
+	line-height: 45px;
+	overflow: hidden;
+}
+.check-top i {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 11px 10px 0 0;
+}
+.check-top i.info {
+	background-position: 0 -20px;
+}
+.check-top i.right {
+	background-position: -25px -20px;
+}
+.check-top span {
+	float: left;
+	font-size: 15px;
+}
+.sign-box ul {
+	padding-top: 15px;
+}
+.sign-box ul li {
+	overflow: hidden;
+	padding: 0 20px;
+	font-size: 15px;
+	line-height: 30px;
+}
+.sign-box ul li label {
+	float: left;
+	width: 105px;
+	text-align: right;
+	margin-right: 20px;
+}
+.sign-box ul li span {
+	float: left;
+	width: 60%;
+	color: #666;
+}
+/*门店管理*/
+.sh-store-head {
+	margin-top: 15px;
+	height: 55px;
+	position: relative;
+}
+.sh-store-head img {
+	display: block;
+	width: 100%;
+	height: 55px;
+}
+.sh-store-head button {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+.center-list li input {
+	float: right;
+	height: 45px;
+	margin-right: 35px;
+	color: #666;
+	text-align: right;
+}
+.center-store {
+	margin-top: 15px;
+}
+.center-store .closed {
+	float: right;
+	margin-right: 20px;
+}
+.center-store .line-2 .link {
+	float: right;
+	margin-right: 20px;
+}
+.center-store .link a {
+	color: #dd4f41;
+	margin-left: 10px;
+}
+.res-box.store-add {
+	margin: 15px 0 0;
+	padding-top: 35px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.center-list.add-succ {
+	overflow: hidden;
+	padding-left: 0;
+}
+.add-succ .center-tit {
+	text-align: center;
+	font-size: 15px;
+	margin: 20px 0;
+}
+.add-store-info {
+	margin: 0 20px 20px;
+	padding-top: 10px;
+	background-color: #efefef;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.add-store-info p {
+	overflow: hidden;
+	margin: 0 0 10px 70px;
+}
+.add-store-info p span {
+	float: left;
+	margin: 0;
+	font-size: 15px;
+}
+.add-store-info p span.label {
+	width: 80px;
+	color: #333;
+}
+.add-succ ul {
+	margin-left: 15px;
+}
+/*订单详情*/
+.create-info.order {
+	margin: 25px 20px;
+	padding: 25px 15px 15px;
+	background-color: #dd4f41;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 25px;
+}
+.create-info.order p label {
+	color: #fff;
+	width: 80px;
+}
+.order p span.f20 {
+	font-size: 20px;
+}
+/*商户创建会员卡选中状态*/
+.new-card ul li.on {
+	overflow: visible;
+}
+.new-card ul li.on img {
+	border: 2px solid #89b219;
+	border-radius: 5px;
+}
+.new-card ul li.on:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: 63px;
+	top: -10px;
+	width: 23px;
+	height: 23px;
+	background: url(../images/right1.png) 0 0 no-repeat;
+	background-size: 23px 23px;
+}
